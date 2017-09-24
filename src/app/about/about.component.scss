@@ -1,0 +1,57 @@
+$background-color-one: #c38d9e;
+$background-color-two: #e8a87c;
+$container-height: 250px;
+$padding-top-content: 50px;
+$padding-bottom-content: 50px;
+$padding-left-content: 10rem;
+
+$margin-top-jumbotron: 99px;
+$padding-right-content: 10rem;
+
+
+
+.about-page {
+	margin-top: $margin-top-jumbotron;
+
+	#jumbo-one {
+		margin-top: -37px;
+		height: $container-height;
+
+		#who {
+			padding-left: $padding-left-content;
+		}
+
+		#jumbo-one-content {
+			padding-right: $padding-right-content;
+		}	
+	}	
+
+	
+	#jumbo-two {
+		background-color: $background-color-two;
+		margin-top: -32px;
+		height: $container-height;
+	
+		#what{
+			padding-left: $padding-left-content;
+		}	
+
+		#jumbo-two-content {
+			padding-right: $padding-right-content;
+		}
+	}
+	
+
+	#jumbo-three {
+		background-color: $background-color-one;
+		margin-top: -32px;
+		height: $container-height;
+		#why {
+			padding-left: $padding-left-content;
+		}
+
+		#jumbo-three-content {
+			padding-right: $padding-right-content;
+		}	
+	}
+}

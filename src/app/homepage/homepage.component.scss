@@ -1,0 +1,62 @@
+$background-color-one: #c38d9e;
+$background-color-two: #e8a87c;
+$container-height : 600px;
+$padding-top-content: 50px;
+$padding-bottom-content: 50px;
+$padding-left-content: 10rem;
+
+
+#homepage {
+	margin-top: 61px;
+}
+
+#homepagerow1 {
+	background-color: $background-color-one;
+	min-height: 0px;
+	height: $container-height;
+	padding-top: $padding-top-content;
+	padding-bottom: $padding-bottom-content;
+	padding-left: $padding-left-content;
+
+	.card {
+		width: 30rem;
+	}
+}
+
+#homepagerow2 {
+	background-color: $background-color-two;
+	min-height: 0px;
+	height: $container-height;
+	padding-top: $padding-top-content;
+	padding-bottom: $padding-bottom-content;
+	padding-left: $padding-left-content;
+}
+
+
+#homepagerow3 {
+	background-color: $background-color-one;
+	min-height: 0px;
+	height: $container-height;
+	padding-top: $padding-top-content;
+	padding-bottom: $padding-bottom-content;
+	padding-left: $padding-left-content;
+	
+	#homepagerow3-heading {
+		text-align: center;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+#homepagerow4 {
+	background-color: $background-color-two;
+	height: $container-height;
+	text-align: center;
+	padding-top: $padding-top-content;
+	padding-bottom: $padding-bottom-content;
+
+	img {
+		height: 200px;
+		width: 200px;
+	}
+}

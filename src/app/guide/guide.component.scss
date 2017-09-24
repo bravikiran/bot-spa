@@ -1,0 +1,75 @@
+$background-color-one: #c38d9e;
+$background-color-two: #e8a87c;
+$background-color-three: lightgray;
+
+$container-height: 600px;
+
+$padding-top-content: 50px;
+$padding-bottom-content: 50px;
+$padding-left-content: 10rem;
+$padding-right-content: 10rem;
+
+$margin-top-jumbotron: 99px;
+$margin-bottom-content: 1rem;
+$margin-top-content: 3rem;
+
+
+
+.guide-row-one {
+	padding-top: 60px;
+	height: $container-height;
+	background-color: $background-color-three;
+
+	#guide-heading {
+		text-align: center;
+		margin-top: $margin-top-content;
+		margin-bottom: $margin-bottom-content;
+		color: white;
+	}
+
+	#guide-row-left {
+		padding-left: $padding-left-content;
+	}
+
+	#guide-row-right {
+		display: block;
+	}
+}
+
+.guide-row-two {
+	height: $container-height/1.5;
+	background-color: $background-color-one;
+	h3{
+		padding-bottom: 5rem;
+	}
+
+	#guide-row-left {
+		padding-left: $padding-left-content;
+		padding-top: $padding-top-content;
+	}
+
+	#guide-row-right {
+		padding-top: $padding-top-content;
+	}
+}
+
+.guide-row-three {	
+	padding-top: $padding-top-content;
+	height: $container-height/1.5;
+	background-color: $background-color-two;
+
+	#guide-row-left {
+
+		padding-left: $padding-left-content;
+		h3 {
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+		}
+	}
+
+	#guide-row-right {
+		.card {
+			width: 30rem;
+		}
+	}
+}
